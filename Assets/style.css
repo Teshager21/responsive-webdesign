@@ -22,8 +22,11 @@ h2 {
 }
 
 h3 {
-  /* font-size: 1.5rem;
-  font-weight: 700; */
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  text-decoration: none;
+  font-size: 28px;
 }
 
 /* ==================================================================================
@@ -32,6 +35,10 @@ h3 {
 body {
   box-sizing: border-box;
   color: #555;
+}
+
+* {
+border: 1px solid red;
 }
 
 ol,
@@ -128,7 +135,7 @@ img {
 .main {
   grid-column: 1/-1;
   grid-row: 3/4;
-  background-color: hotpink;
+  background-color: gray;
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
@@ -149,14 +156,90 @@ img {
 .u-col {
   flex-basis: 25%;
   max-width: 25%;
-  padding: 12px;
+  /* padding: 12px; */
   flex: 0 0 auto;
   position: relative;
 }
 
-.story{
+.fundings{
+background: #fffaf8;
+margin: 0.78em;
+width: 16.875em;
 
 }
+
+.fundings-header{
+  position: relative;
+  display: block;
+
+}
+
+.fundings-image {
+  height: 60px;
+  width: 60px;  
+  margin: 1em;
+  position: absolute;
+
+}
+
+.funding-name {
+  background: #f42;
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fundings-deets{
+  padding: 1em 1em 1em 8em;
+  color: #000;
+  background: rgba(255,68,34,.08);
+  margin: 0;
+
+}
+
+.fundings-card {
+  padding: 1em;
+}
+
+.fundings-bit {
+  padding-left: 2em;
+  position: relative;
+  font-size: 13px;
+  color: #555;
+  margin-right: 1em;
+  display: block;
+  line-height: 22px;
+}
+
+.fundings-story{
+  display: block;
+
+  border-top: 1px solid rgba(255, 68, 34, .25);
+  font-size: 13px;
+  color: #aaa;
+  padding: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.fundings-source{
+  text-decoration: none;
+  list-style: none;  
+}
+
+.icons{
+  display: inline-block;
+  background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 1296px 1296px;
+  background-position: -976px -976px;
+}
+
 
 .story-image {
   background-color: #000;
@@ -191,13 +274,34 @@ img {
   padding-top: 4px;
 }
 
+.funding{
+  margin-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  /* padding:1em; */
+  justify-content: space-between;
+}
 
+.funding-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
 
+}
 
+.funding-subtitle {
+  text-decoration: none;
+  color: #f42;
+}
 
-
-
-
+.funding-columns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
 
 .footer {
   grid-column: 1/-1;
@@ -206,24 +310,3 @@ img {
 }
 
 
-
-/* .news{
-  grid-area: news;
-}
-
-.funding{
-  grid-area: funding;
-}
-
-.apps{
-  grid-area: apps;
-}
-
-.deals{
-  grid-area: deals;
-}
-
-.social{
-  grid-area: social;
-}
- */

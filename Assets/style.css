@@ -151,7 +151,7 @@ img{
 .u-col{
   flex-basis: 25%;
   max-width: 25%;
-  /* padding: 12px; */
+  padding: 12px;
   flex: 0 0 auto;
   position: relative;
 }

@@ -30,6 +30,7 @@ h3 {
 ================================================================================== */
 body {
   box-sizing: border-box;
+  color: #555;
 }
 
 ol,
@@ -42,11 +43,10 @@ ul li{
 }
 .container{
   display: grid;
-  grid-gap: 2em;
+  /* grid-gap: 0.5em; */
   width: 100%;
   grid-template-rows: 80px 435px 3700px 255px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-
 }
 
 img{
@@ -79,14 +79,125 @@ img{
   grid-column: 1/-1;
   grid-row:2/3;
   background-color: green;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black; */
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+
   
+}
+
+.main-cover{
+  border: 1px solid red;
+  grid-column: 1/2;
+  background-color: black;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/joel-muniz-Y6CT3a-RJ68-unsplash-1-796x448.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aside-cover{
+  /* flex: 1; */
+  /* border: 1px solid blue; */
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside-cover-1
+{
+  flex: 1;
+  background-position: 50%;
+  background-size: cover;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-11-796x417.png');
+}
+
+.aside-cover-2
+{
+  flex: 1;
+  background-position: 50%;
+  background-size: cover;  
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+
 }
 
 .main{
   grid-column: 1/-1;
   grid-row: 3/4;
   background-color: hotpink;
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
 }
+
+.news {
+  margin-bottom: 4em;
+  padding-top: 24px;
+
+}
+
+.u-row{
+  margin: -12px;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+
+}
+
+.u-col{
+  flex-basis: 25%;
+  max-width: 25%;
+  /* padding: 12px; */
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.story{
+
+}
+
+.story-image{
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+  /* padding-top: 50%; */
+  width: 100%;
+  /* margin-bottom: 8px; */
+  /* position: relative; */
+  width: 270px;
+  height: 135px;
+
+}
+
+.story-title{
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.story-byLine{
+  font-size: 13px;
+  line-height: 20px;
+  color: #aaa;
+  padding-top: 4px;
+}
+
+
+
+
+
+
+
+
 
 .footer{
   grid-column: 1/-1;

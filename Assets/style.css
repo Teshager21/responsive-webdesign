@@ -38,7 +38,7 @@ body {
 }
 
 * {
-border: 1px solid red;
+  border: 1px solid red;
 }
 
 ol,
@@ -156,30 +156,28 @@ img {
 .u-col {
   flex-basis: 25%;
   max-width: 25%;
+
   /* padding: 12px; */
   flex: 0 0 auto;
   position: relative;
 }
 
-.fundings{
-background: #fffaf8;
-margin: 0.78em;
-width: 16.875em;
-
+.fundings {
+  background: #fffaf8;
+  margin: 0.78em;
+  width: 16.875em;
 }
 
-.fundings-header{
+.fundings-header {
   position: relative;
   display: block;
-
 }
 
 .fundings-image {
   height: 60px;
-  width: 60px;  
+  width: 60px;
   margin: 1em;
   position: absolute;
-
 }
 
 .funding-name {
@@ -193,12 +191,11 @@ width: 16.875em;
   text-overflow: ellipsis;
 }
 
-.fundings-deets{
+.fundings-deets {
   padding: 1em 1em 1em 8em;
   color: #000;
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, 0.08);
   margin: 0;
-
 }
 
 .fundings-card {
@@ -215,10 +212,9 @@ width: 16.875em;
   line-height: 22px;
 }
 
-.fundings-story{
+.fundings-story {
   display: block;
-
-  border-top: 1px solid rgba(255, 68, 34, .25);
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   font-size: 13px;
   color: #aaa;
   padding: 16px;
@@ -226,12 +222,12 @@ width: 16.875em;
   list-style: none;
 }
 
-.fundings-source{
+.fundings-source {
   text-decoration: none;
-  list-style: none;  
+  list-style: none;
 }
 
-.icons{
+.icons {
   display: inline-block;
   background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
   width: 16px;
@@ -274,21 +270,22 @@ width: 16.875em;
   padding-top: 4px;
 }
 
-.funding{
+.funding {
   margin-bottom: 4em;
   display: flex;
   flex-direction: column;
+
   /* border: 1px solid red; */
+
   /* padding:1em; */
   justify-content: space-between;
 }
 
-.funding-title{
+.funding-title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 24px;
-
 }
 
 .funding-subtitle {
@@ -296,11 +293,10 @@ width: 16.875em;
   color: #f42;
 }
 
-.funding-columns{
+.funding-columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 .footer {

@@ -5,6 +5,7 @@
   /* font-family: 'Montserrat', sans-serif;
   font-style: normal; */
 }
+
 h1 {
   /* font-size: 2.6rem;
   font-weight: 700; */
@@ -36,20 +37,22 @@ body {
 ol,
 ul {
   list-style: none;
-  
 }
-ul li{
+
+ul li {
   display: inline-block;
 }
-.container{
+
+.container {
   display: grid;
+
   /* grid-gap: 0.5em; */
   width: 100%;
   grid-template-rows: 80px 435px 3700px 255px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-img{
+img {
   width: 20px;
 }
 
@@ -61,14 +64,14 @@ img{
   flex-direction: column;
 }
 
-.nav1{
+.nav1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border:1px solid blue;
+  border: 1px solid blue;
 }
 
-.nav2{
+.nav2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -77,8 +80,9 @@ img{
 
 .cover {
   grid-column: 1/-1;
-  grid-row:2/3;
+  grid-row: 2/3;
   background-color: green;
+
   /* display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -86,21 +90,20 @@ img{
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr;
-
-  
 }
 
-.main-cover{
+.main-cover {
   border: 1px solid red;
   grid-column: 1/2;
   background-color: black;
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/joel-muniz-Y6CT3a-RJ68-unsplash-1-796x448.jpg') ;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/joel-muniz-Y6CT3a-RJ68-unsplash-1-796x448.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.aside-cover{
+.aside-cover {
   /* flex: 1; */
+
   /* border: 1px solid blue; */
   grid-column: 2/3;
   display: flex;
@@ -108,24 +111,21 @@ img{
   justify-content: space-between;
 }
 
-.aside-cover-1
-{
+.aside-cover-1 {
   flex: 1;
   background-position: 50%;
   background-size: cover;
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-11-796x417.png');
 }
 
-.aside-cover-2
-{
+.aside-cover-2 {
   flex: 1;
   background-position: 50%;
-  background-size: cover;  
+  background-size: cover;
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
-
 }
 
-.main{
+.main {
   grid-column: 1/-1;
   grid-row: 3/4;
   background-color: hotpink;
@@ -137,18 +137,16 @@ img{
 .news {
   margin-bottom: 4em;
   padding-top: 24px;
-
 }
 
-.u-row{
+.u-row {
   margin: -12px;
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-
 }
 
-.u-col{
+.u-col {
   flex-basis: 25%;
   max-width: 25%;
   padding: 12px;
@@ -160,23 +158,25 @@ img{
 
 }
 
-.story-image{
+.story-image {
   background-color: #000;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   overflow: hidden;
+
   /* padding-top: 50%; */
   width: 100%;
+
   /* margin-bottom: 8px; */
+
   /* position: relative; */
   width: 270px;
   height: 135px;
-
 }
 
-.story-title{
+.story-title {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 0;
@@ -184,7 +184,7 @@ img{
   word-wrap: break-word;
 }
 
-.story-byLine{
+.story-byLine {
   font-size: 13px;
   line-height: 20px;
   color: #aaa;
@@ -199,7 +199,7 @@ img{
 
 
 
-.footer{
+.footer {
   grid-column: 1/-1;
   grid-row: 4/5;
   background-color: blue;

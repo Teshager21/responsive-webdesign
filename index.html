@@ -4,30 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Assets/style.css">
+  <link rel="stylesheet" href="Assets/meyer_css_reset.css">
   <title>Document</title>
 </head>
 
 <body>
   <div class="container">
-    <nav>
-      <ul>
-        <li><a href="#">News</a=href="">
-        </li>
-        <li><a href="#">TNW2020</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">AMAS</a></li>
-        <li><a href="#">Spaces</a></li>
-        <li><a href="#">Terms&Conditions</a></li>
-      </ul>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Adverstise</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div>
+    <nav class="top">
+      <!-- here all the nav -->
+      <div class="nav1">
+        <ul>
+          <!-- class -->
+          <li><a href="#">News</a></li>
+          <li><a href="#">TNW2020</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">AMAS</a></li>
+          <li><a href="#">Spaces</a></li>
+          <li><a href="#">Terms&Conditions</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Adverstise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav2">
         <ul>
           <li><a href="#">LATEST</a></li>
           <li><a href="#">HARD FORK</a></li>
@@ -37,33 +41,34 @@
           <li><a href="#">GROWTH QUARTERS</a></li>
           <li><a href="#">NEURAL</a></li>
         </ul>
-      </div>
-      <div class="search">
 
+        <div class="search">
+          <a href="#">search</a>
+        </div>
       </div>
     </nav>
-    <main>
-      <section class="cover">
-        <div class="main-cover">
-          <p>Friday — April 24, 2020</p>
-          <p>DISTRACT</p>
-          <h1>The true, cocaine-fueled story behind Back to the Future’s time-traveling DeLorean</h1>
-          <p>by <a href="#">Matthew Beedham</a> 48 minutes ago 0</p>
+    <section class="cover">
+      <div class="main-cover">
+        <p>Friday — April 24, 2020</p>
+        <p>DISTRACT</p>
+        <h1>The true, cocaine-fueled story behind Back to the Future’s time-traveling DeLorean</h1>
+        <p>by <a href="#">Matthew Beedham</a> 48 minutes ago 0</p>
+      </div>
+      <div class="aside-cover">
+        <div>
+          <p>CREATIVE</p>
+          <h2>This AI wrote such emo lyrics that humans thought it was My Chemical Romance</h2>
+          <p>by <a href="#">Thomas Macaulay</a> 1 hour ago 5 </p>
         </div>
-        <div class="aside-cover">
-          <div>
-            <p>CREATIVE</p>
-            <h2>This AI wrote such emo lyrics that humans thought it was My Chemical Romance</h2>
-            <p>by <a href="#">Thomas Macaulay</a> 1 hour ago 5 </p>
-          </div>
-          <div>
-            <p>TECH</p>
-            <h2>How browser fingerprints identify you even when you have cookies turned off</h2>
-            <p>by <a href="#">Gabor Takas</a>1 hour ago 3</p>
-          </div>
+        <div>
+          <p>TECH</p>
+          <h2>How browser fingerprints identify you even when you have cookies turned off</h2>
+          <p>by <a href="#">Gabor Takas</a>1 hour ago 3</p>
         </div>
-      </section>
-      <section>
+      </div>
+    </section>
+    <main class="main">
+      <section class="news">
         <h3>Latest news ></h3>
         <div>
           <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/musk-hulk-513x270.png" alt="musk">
@@ -115,7 +120,7 @@
           <p><a href="#">Callum Booth and Cara Curtis</a> . 6 hours ago</p>
         </div>
       </section>
-      <section>
+      <section class="funding">
         <div>
           <h3>Latest funding rounds on Index.co ></h3>
           <div>
@@ -199,7 +204,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="apps">
         <div>
           <h3>Apps ></h3>
           <img src="" alt="">
@@ -405,7 +410,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="deals">
         <h3>Latest deals ></h3>
         <div>
           <img
@@ -465,9 +470,9 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div>
-        <div>
+        <div class="social">
           <ul>
             <li><a href="#"><i>F</i></a></li>
             <li><a href="#"><i>T</i></a></li>
@@ -482,7 +487,7 @@
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">ADVERTISE</a></li>
             <li><a href="#">JOBS</a></li>
-            <li><a href="#">CONTACT</a></li>            
+            <li><a href="#">CONTACT</a></li>
           </ul>
         </div>
         <div>

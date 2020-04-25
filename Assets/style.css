@@ -5,6 +5,7 @@
   /* font-family: 'Montserrat', sans-serif;
   font-style: normal; */
 }
+
 h1 {
   /* font-size: 2.6rem;
   font-weight: 700; */
@@ -35,21 +36,21 @@ body {
 ol,
 ul {
   list-style: none;
-  
 }
-ul li{
+
+ul li {
   display: inline-block;
 }
-.container{
+
+.container {
   display: grid;
   grid-gap: 2em;
   width: 100%;
   grid-template-rows: 80px 435px 3700px 255px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-img{
+img {
   width: 20px;
 }
 
@@ -61,14 +62,14 @@ img{
   flex-direction: column;
 }
 
-.nav1{
+.nav1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border:1px solid blue;
+  border: 1px solid blue;
 }
 
-.nav2{
+.nav2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -77,18 +78,17 @@ img{
 
 .cover {
   grid-column: 1/-1;
-  grid-row:2/3;
+  grid-row: 2/3;
   background-color: green;
-  
 }
 
-.main{
+.main {
   grid-column: 1/-1;
   grid-row: 3/4;
   background-color: hotpink;
 }
 
-.footer{
+.footer {
   grid-column: 1/-1;
   grid-row: 4/5;
   background-color: blue;

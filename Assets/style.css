@@ -48,6 +48,7 @@ ul li {
 
 .container {
   display: grid;
+
   /* grid-gap: 0.5em; */
   width: 100%;
   grid-template-rows: 80px 435px 3700px 255px;
@@ -133,7 +134,7 @@ img {
   padding-top: 24px;
 }
 
-.u-row {  
+.u-row {
   display: flex;
   flex-flow: row  wrap;
   list-style: none;
@@ -279,17 +280,18 @@ img {
   justify-content: space-between;
 }
 
-.articles{
+.articles {
   display: flex;
+
   /* justify-content: space-between; */
+
   /* flex-direction: row; */
   border: 1px solid blue;
   box-sizing: border-box;
   flex-flow: row  wrap;
-
 }
 
-.article{
+.article {
   display: flex;
   flex-direction: column;
   border: 1px solid red;
@@ -298,7 +300,9 @@ img {
 
 .article-image {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/keyword_in-device_2000x1400_1.max-1000x1000-368x276.jpg');
+
   /* background: linear-gradient(to top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.8) 200%); */
+
   /* background-image: linear-gradient(to top, rgba(30,87,153,1) 0%,rgb(1, 11, 24) 0%); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,30 +311,29 @@ img {
   height: 280px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;  
-  
+  justify-content: flex-end;
 }
 
-.article-title{
- height: 115px;
- border: 1px solid red;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+.article-title {
+  height: 115px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .article-latest {
   display: flex;
   border: 1px solid red;
-
 }
 
-.article-latest-group{
+.article-latest-group {
   margin: 1em;
   border: 1px solid green;
 }
-.article-image-image{
+
+.article-image-image {
   width: 200px;
   height: 100px;
   background-size: cover;
@@ -339,10 +342,10 @@ img {
   border: 1px solid green;
 }
 
-.article-list>li{
+.article-list > li {
   padding-bottom: 1em;
   border: 1px solid yellow;
-  }
+}
 
 
 

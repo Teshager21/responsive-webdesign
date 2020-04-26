@@ -37,10 +37,6 @@ body {
   color: #555;
 }
 
-* {
-  border: 1px solid red;
-}
-
 ol,
 ul {
   list-style: none;
@@ -52,7 +48,6 @@ ul li {
 
 .container {
   display: grid;
-
   /* grid-gap: 0.5em; */
   width: 100%;
   grid-template-rows: 80px 435px 3700px 255px;
@@ -89,11 +84,6 @@ img {
   grid-column: 1/-1;
   grid-row: 2/3;
   background-color: green;
-
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border: 1px solid black; */
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr;
@@ -109,9 +99,6 @@ img {
 }
 
 .aside-cover {
-  /* flex: 1; */
-
-  /* border: 1px solid blue; */
   grid-column: 2/3;
   display: flex;
   flex-direction: column;
@@ -142,22 +129,19 @@ img {
 }
 
 .news {
-  margin-bottom: 4em;
+  margin: 1em;
   padding-top: 24px;
 }
 
-.u-row {
-  margin: -12px;
+.u-row {  
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row  wrap;
   list-style: none;
 }
 
 .u-col {
   flex-basis: 25%;
   max-width: 25%;
-
-  /* padding: 12px; */
   flex: 0 0 auto;
   position: relative;
 }
@@ -274,10 +258,6 @@ img {
   margin-bottom: 4em;
   display: flex;
   flex-direction: column;
-
-  /* border: 1px solid red; */
-
-  /* padding:1em; */
   justify-content: space-between;
 }
 
@@ -298,6 +278,76 @@ img {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.articles{
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+  border: 1px solid blue;
+  box-sizing: border-box;
+  flex-flow: row  wrap;
+
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 665px;
+}
+
+.article-image {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/keyword_in-device_2000x1400_1.max-1000x1000-368x276.jpg');
+  /* background: linear-gradient(to top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.8) 200%); */
+  /* background-image: linear-gradient(to top, rgba(30,87,153,1) 0%,rgb(1, 11, 24) 0%); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 370px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;  
+  
+}
+
+.article-title{
+ height: 115px;
+ border: 1px solid red;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.article-latest {
+  display: flex;
+  border: 1px solid red;
+
+}
+
+.article-latest-group{
+  margin: 1em;
+  border: 1px solid green;
+}
+.article-image-image{
+  width: 200px;
+  height: 100px;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/DD-Cooking.jpg');
+  border: 1px solid green;
+}
+
+.article-list>li{
+  padding-bottom: 1em;
+  border: 1px solid yellow;
+  }
+
+
+
+
+
 
 .footer {
   grid-column: 1/-1;

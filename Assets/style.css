@@ -224,15 +224,25 @@ img {
 
 .story-image {
   /* background-color: #000; */
+
   /* background-position: 50%; */
+
   /* background-repeat: no-repeat; */
+
   /* background-size: cover; */
+
   /* display: block; */
+
   /* overflow: hidden; */
+
   /* padding-top: 50%; */
+
   /* width: 100%; */
+
   /* margin-bottom: 8px; */
-  /* position: relative; */ 
+  /* position: relative; */
+
+   
   width: 270px;
   height: 135px;
 }
@@ -282,6 +292,7 @@ img {
   border: 3px solid blue;
   box-sizing: border-box;
   flex-flow: row  wrap;
+
   /* justify-content: space-between; */
 }
 
@@ -293,8 +304,8 @@ img {
   flex-basis: 30%;
   max-width: 30%;
   margin-right: 1.56em;
-  /* align-items: ; */
 
+  /* align-items: ; */
 }
 
 .article-image {

@@ -11,7 +11,7 @@
 
 .body {
   font-family: sans-serif;
-  overflow: hidden;
+  width:100vw;
 }
 
 .nav1 {
@@ -23,33 +23,31 @@
 }
 
 .container {
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  background-color: blueviolet;
+  width: 100%;
+ /*  background-color: blueviolet; */
 }
 
 .cover {
   box-sizing: border-box;
-  background-color: yellow;
-  color: yellow;
-  width: 90%;
-
-  /*  padding: 0 1%; */
+ /*  background-color: yellow; */
+  color: #fff;
+  width: 98%%;
+   margin: 1em auto;
   justify-content: center;
 }
 
 .main-cover {
   box-sizing: inherit;
-  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+  background-image: linear-gradient(to top, rgba(0,0,0,1),transparent),url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 2%;
-  height: 30vw;
+  min-height: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-start;
+  margin: 2em;
 }
 
 .date {
@@ -57,8 +55,9 @@
 }
 
 .title {
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 300px;
 }
 
 .tag {
@@ -66,21 +65,29 @@
 }
 
 .aside-cover-1 {
-  background-position: 50%;
-  background-size: cover;
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-11-796x417.png');
-  height: 30vw;
+  background-image: linear-gradient(to top, rgba(0,0,0,1),transparent),url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-11-796x417.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 2%;
+  min-height: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-start;
+  margin: 2em;
 }
 
 .aside-cover-2 {
   background-position: 50%;
   background-size: cover;
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
-  height: 30vw;
+  background-image: linear-gradient(to top, rgba(0,0,0,1),transparent),url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 2%;
+  min-height: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-start;
+  margin: 2em;
 }

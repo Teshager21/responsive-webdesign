@@ -223,18 +223,15 @@ img {
 
 
 .story-image {
-  background-color: #000;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: block;
-  overflow: hidden;
-
+  /* background-color: #000; */
+  /* background-position: 50%; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* display: block; */
+  /* overflow: hidden; */
   /* padding-top: 50%; */
-  width: 100%;
-
+  /* width: 100%; */
   /* margin-bottom: 8px; */
-
   /* position: relative; */
   width: 270px;
   height: 135px;
@@ -282,13 +279,10 @@ img {
 
 .articles {
   display: flex;
-
-  /* justify-content: space-between; */
-
-  /* flex-direction: row; */
-  border: 1px solid blue;
+  border: 3px solid blue;
   box-sizing: border-box;
   flex-flow: row  wrap;
+  /* justify-content: space-between; */
 }
 
 .article {
@@ -296,14 +290,15 @@ img {
   flex-direction: column;
   border: 1px solid red;
   height: 665px;
+  flex-basis: 30%;
+  max-width: 30%;
+  margin-right: 1.56em;
+  /* align-items: ; */
+
 }
 
 .article-image {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/keyword_in-device_2000x1400_1.max-1000x1000-368x276.jpg');
-
-  /* background: linear-gradient(to top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.8) 200%); */
-
-  /* background-image: linear-gradient(to top, rgba(30,87,153,1) 0%,rgb(1, 11, 24) 0%); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;

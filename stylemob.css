@@ -6,12 +6,25 @@
   font-family: "Avalon";
   src: url("./Assets/fonts/avalon/Avalon_Bold.ttf");
   font-style: bold;
-  font-weight: 500;
+  font-weight: 900;
 }
 
-.body {
+:root h2{
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.5em;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif; 
+ }
+ :root h1 {
+  font-size: 1.5rem;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif; 
+ }
+
+
+body {
   font-family: sans-serif;
   width:100vw;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav1 {
@@ -24,14 +37,11 @@
 
 .container {
   width: 100%;
- /*  background-color: blueviolet; */
 }
 
 .cover {
   box-sizing: border-box;
- /*  background-color: yellow; */
-  color: #fff;
-  width: 98%%;
+  width: 98%;
    margin: 1em auto;
   justify-content: center;
 }
@@ -59,6 +69,8 @@
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
   min-width: 300px;
 }
+
+
 
 .tag {
   display: none;
@@ -91,3 +103,46 @@
   align-items: flex-start;
   margin: 2em;
 }
+
+/* .main {
+
+} */
+
+.news {
+
+ padding: 1em;
+
+}
+
+.news > h2 {
+ color:#f42
+}
+.story {
+ display:flex;
+ padding: 1em;
+ 
+}
+
+.story-link {
+ flex:1;
+}
+
+.story-image {
+ width: 100%;
+ height: 100%;
+}
+
+.story-text {
+ flex:5;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ padding-left: 1em;
+ background-color:red;
+}
+
+.story-byLine span {
+ margin-right: 2%;
+}
+
+

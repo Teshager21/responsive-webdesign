@@ -1,0 +1,88 @@
+
+/* ========================================================
+                 Typography
+======================================================= */
+@font-face {
+ font-family: "Avalon";
+ src: url("./Assets/fonts/avalon/Avalon_Bold.ttf");
+ font-style: bold;
+ font-weight: 500;
+}
+
+
+
+.body {
+ font-family: sans-serif;
+ overflow: hidden;
+}
+
+.nav1 {
+ display:none;
+}
+.nav-list {
+ display:none;
+}
+
+.container {
+ width: 100vw;
+ display:grid;
+ grid-template-columns: 1fr;
+ justify-content: center;
+ background-color:blueviolet;
+}
+
+.cover {
+ box-sizing: border-box;
+ background-color: yellow;
+ color:yellow;
+ width: 90%;
+/*  padding: 0 1%; */
+ justify-content: center;
+}
+
+.main-cover {
+ box-sizing: inherit;
+ background-position: 50%;
+ background-size: cover;
+  background-color:red;
+ background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ padding: 2%;
+ height: 30vw;
+ display:flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+
+.date {
+ display: none;
+}
+.title {
+ font-size: 1.5 rem;
+ font-family: "Avalon";
+}
+.tag {
+ display: none;
+}
+
+.aside-cover-1 {
+ background-position: 50%;
+ background-size: cover;
+ background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-11-796x417.png');
+height: 30vw;
+display:flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+
+
+.aside-cover-2 {
+ background-position: 50%;
+ background-size: cover;
+ background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+ height: 30vw;
+ display:flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}

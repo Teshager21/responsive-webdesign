@@ -94,7 +94,8 @@ img {
   border: 1px solid red;
   grid-column: 1/2;
   background-color: black;
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/joel-muniz-Y6CT3a-RJ68-unsplash-1-796x448.jpg');
+  background-image: url("https://thenextweb.com/neural/2020/04/27/mans-paralyzed-hand-can-feel-again-thanks-to-a-brain-implant/");
+
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -144,4 +144,206 @@ body {
   margin-right: 2%;
 }
 
+/* Funding */
 
+.funding{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* border: 1px solid red; */
+}
+
+.funding-title > div{
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.funding-subtitle{
+  /* border: 1px solid blue; */
+  font-size: 0.85rem;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.625em;
+  text-decoration: none; 
+  color: #f42;
+}
+.funding-title > h2 {
+  color: #f42;
+}
+
+.funding-columns{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  justify-content: flex-start;
+}
+
+.fundings{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(254, 251, 249);
+  /* border: 1px solid black; */
+}
+
+.fundings a{
+  text-decoration: none;
+}
+
+.fundings-header{
+  /* border: 1px solid green; */
+}
+
+.funding-name{
+
+  /* border: 1px solid blue; */
+  padding: 1em;
+  background-color:#f42;
+  color: white;  
+  font-size: 1rem;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+  /* position: relative; */
+  padding-left: 5.5em;
+}
+
+.fundings-deets{
+  background-color: rgb(250, 237, 233) ;
+  color: black;
+  font-size: 1rem;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
+  border: px solid black;
+  padding-left: 5.5em;
+}
+
+.fundings-card{
+  /* border: 2px solid red; */
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1.5px solid rgb(243, 210, 199);
+}
+.fundings-image {
+  height: 60px;
+  width: 60px;
+  margin: 1em;
+  position: absolute;
+}
+
+.fundings-bit{
+  /* border: 2px solid blue; */
+  background-color: rgb(254, 251, 249);
+  text-decoration: none;
+  font-size: 0.75em;
+  color: rgb(106, 106, 106);
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;  
+  margin-bottom: 0.9em;
+}
+
+
+.iconsTicket{
+  display: inline-block;
+  background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 1296px 1296px;
+  background-position: -976px -976px;
+  margin-right: 0.56em;
+}
+.iconsTool{
+  display: inline-block;
+  background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 1296px 1296px;
+  background-position: -976px -976px;
+  margin-right: 0.56em;
+}
+
+.icons{
+  display: inline-block;
+  background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 1296px 1296px;
+  background-position: -976px -976px;
+  margin-right: 0.56em;
+}
+
+.fundings-story a{
+  text-decoration: none;
+  font-size: 0.75em;
+  color: rgb(106, 106, 106);
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fundings-story{
+  /* border: 3px solid black; */
+  margin: 1em;
+}
+
+.fundings-source{
+  font-size: 1em;
+  color: rgb(178, 178, 178);
+}
+
+/* Apps */
+
+.articles{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid green;
+  color: #f42;
+}
+
+.article{
+  border: 1px solid blue;
+}
+
+.article-image{
+  box-sizing: inherit;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/59797-large-796x448.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background- */
+  padding: 2%;
+  min-height: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 1.25em;
+
+}
+
+.article-title{
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.article-title a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.article-latest{
+  border: 1px solid red;
+  margin: 0 1.25em;
+  background-color: rgb(252, 245, 243) ;
+  color: #f42;
+}
+
+.article-latest-group a{
+  color: #f42;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8em;
+}

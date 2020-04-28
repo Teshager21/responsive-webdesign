@@ -146,69 +146,74 @@ body {
 
 /* Funding */
 
-.funding{
+.funding {
   display: flex;
   flex-direction: column;
+
   /* justify-content: flex-start; */
+
   /* border: 1px solid red; */
 }
 
-.funding-title > div{
+.funding-title > div {
   /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   margin-top: 1em;
 }
 
-.funding-subtitle{
+.funding-subtitle {
   /* border: 1px solid blue; */
   font-size: 0.85rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 0.625em;
-  text-decoration: none; 
+  text-decoration: none;
   color: #f42;
 }
+
 .funding-title > h2 {
   color: #f42;
 }
 
-.funding-columns{
+.funding-columns {
   display: flex;
   flex-direction: column;
+
   /* border: 1px solid red; */
   justify-content: flex-start;
 }
 
-.fundings{
+.fundings {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: rgb(254, 251, 249);
+
   /* border: 1px solid black; */
 }
 
-.fundings a{
+.fundings a {
   text-decoration: none;
 }
 
-.fundings-header{
+.fundings-header {
   /* border: 1px solid green; */
 }
 
-.funding-name{
-
+.funding-name {
   /* border: 1px solid blue; */
   padding: 1em;
-  background-color:#f42;
-  color: white;  
+  background-color: #f42;
+  color: white;
   font-size: 1rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+
   /* position: relative; */
   padding-left: 5.5em;
 }
 
-.fundings-deets{
-  background-color: rgb(250, 237, 233) ;
+.fundings-deets {
+  background-color: rgb(250, 237, 233);
   color: black;
   font-size: 1rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
@@ -217,13 +222,14 @@ body {
   padding-left: 5.5em;
 }
 
-.fundings-card{
+.fundings-card {
   /* border: 2px solid red; */
   padding: 1.2em;
   display: flex;
   flex-direction: column;
   border-bottom: 1.5px solid rgb(243, 210, 199);
 }
+
 .fundings-image {
   height: 60px;
   width: 60px;
@@ -231,27 +237,18 @@ body {
   position: absolute;
 }
 
-.fundings-bit{
+.fundings-bit {
   /* border: 2px solid blue; */
   background-color: rgb(254, 251, 249);
   text-decoration: none;
   font-size: 0.75em;
   color: rgb(106, 106, 106);
-  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;  
+  font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 0.9em;
 }
 
 
-.iconsTicket{
-  display: inline-block;
-  background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
-  width: 16px;
-  height: 16px;
-  background-size: 1296px 1296px;
-  background-position: -976px -976px;
-  margin-right: 0.56em;
-}
-.iconsTool{
+.iconsTicket {
   display: inline-block;
   background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
   width: 16px;
@@ -261,7 +258,7 @@ body {
   margin-right: 0.56em;
 }
 
-.icons{
+.iconsTool {
   display: inline-block;
   background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
   width: 16px;
@@ -271,26 +268,36 @@ body {
   margin-right: 0.56em;
 }
 
-.fundings-story a{
+.icons {
+  display: inline-block;
+  background: transparent url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783') no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 1296px 1296px;
+  background-position: -976px -976px;
+  margin-right: 0.56em;
+}
+
+.fundings-story a {
   text-decoration: none;
   font-size: 0.75em;
   color: rgb(106, 106, 106);
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.fundings-story{
+.fundings-story {
   /* border: 3px solid black; */
   margin: 1em;
 }
 
-.fundings-source{
+.fundings-source {
   font-size: 1em;
   color: rgb(178, 178, 178);
 }
 
 /* Apps */
 
-.articles{
+.articles {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -298,15 +305,16 @@ body {
   color: #f42;
 }
 
-.article{
+.article {
   border: 1px solid blue;
 }
 
-.article-image{
+.article-image {
   box-sizing: inherit;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/59797-large-796x448.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
   /* background- */
   padding: 2%;
   min-height: 60vw;
@@ -315,10 +323,9 @@ body {
   justify-content: flex-end;
   align-items: flex-start;
   margin: 1.25em;
-
 }
 
-.article-title{
+.article-title {
   color: white;
   font-size: 0.8em;
   font-weight: bold;
@@ -333,14 +340,14 @@ body {
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.article-latest{
+.article-latest {
   border: 1px solid red;
   margin: 0 1.25em;
-  background-color: rgb(252, 245, 243) ;
+  background-color: rgb(252, 245, 243);
   color: #f42;
 }
 
-.article-latest-group a{
+.article-latest-group a {
   color: #f42;
   text-decoration: none;
   font-weight: bold;

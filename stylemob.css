@@ -44,6 +44,33 @@
 
 .nav-list {
   display: none;
+  justify-content: space-around;
+}
+
+
+
+.nav2 {
+  background-color:yellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-icons {
+  display: flex;
+  width: 10%;
+}
+
+.nav-icons * {
+  margin:10%;
+  width: 100%;
+}
+.search .fa-search{
+  width: 100%;
+}
+
+.dropdown-menu .fa-bars {
+  width: 100%;
+  color:#f42;
 }
 
 .container {

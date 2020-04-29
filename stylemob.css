@@ -133,7 +133,8 @@
 
 .main-cover {
   /* box-sizing: inherit; */
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+  background-color: #f42;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent),linear-gradient(to bottom, #f42 ,#111), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-19-796x417.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -347,10 +348,10 @@
 .fundings a {
   text-decoration: none;
 }
-
+/* 
 .fundings-header {
-  /* border: 1px solid green; */
-}
+border: 1px solid green;
+} */
 
 .funding-name {
   /* border: 1px solid blue; */

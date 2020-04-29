@@ -93,7 +93,9 @@
 
 .nav-icons {
   display: flex;
+  align-items: center;
   width: 10%;
+  /* height: 100%; */
 }
 
 .nav-icons * {
@@ -103,6 +105,9 @@
 
 .search .fa-search {
   width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .dropdown-menu .fa-bars {
@@ -760,10 +765,8 @@ footer {
                       Desktop
     ================================================= */
   @media (min-width: 1024px) {
-    .container{
-      width: 100%;
-      background-color: red;
-      /* border: 20px soliid green; */
+    body{
+      overflow-x: hidden;
     }
     .desktop-link {
       display: block;
@@ -795,6 +798,10 @@ footer {
 
     }
 
+    .search .fa-search {
+      width: 80%;
+    }
+
     ul {
       list-style: none;
     }
@@ -805,6 +812,7 @@ footer {
 
     .dropdown-menu{
       display: none;
+      background-color: green;
     }
 
     .nav2 ul {

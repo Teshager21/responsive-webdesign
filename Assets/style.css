@@ -141,7 +141,7 @@ img {
 }
 
 .u-col {
-  flex-basis: 25%;
+  /* flex-basis: 25%; */
   max-width: 25%;
   flex: 0 0 auto;
   position: relative;
@@ -220,7 +220,6 @@ img {
   background-size: 1296px 1296px;
   background-position: -976px -976px;
 }
-
 
 .story-image {
   width: 270px;
@@ -333,15 +332,8 @@ img {
   border: 1px solid yellow;
 }
 
-
-
-
-
-
 .footer {
   grid-column: 1/-1;
   grid-row: 4/5;
   background-color: blue;
 }
-
-

@@ -250,7 +250,7 @@
   padding: 1em;
 }
 
-.news>h2 {
+.news > h2 {
   color: #f42;
 }
 
@@ -308,7 +308,7 @@
   /* border: 1px solid red; */
 }
 
-.funding-title>div {
+.funding-title > div {
   /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
@@ -324,7 +324,7 @@
   color: #f42;
 }
 
-.funding-title>h2 {
+.funding-title > h2 {
   color: #f42;
 }
 
@@ -550,7 +550,7 @@ border: 1px solid green;
   margin-left: 1.25em;
 }
 
-.article-list>li {
+.article-list > li {
   text-decoration: none;
   padding-top: 0.5em;
   padding-bottom: 0.5em;

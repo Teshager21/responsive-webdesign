@@ -244,7 +244,7 @@
   padding: 1em;
 }
 
-.news>h2 {
+.news > h2 {
   color: #f42;
 }
 
@@ -302,7 +302,7 @@
   /* border: 1px solid red; */
 }
 
-.funding-title>div {
+.funding-title > div {
   /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
@@ -318,7 +318,7 @@
   color: #f42;
 }
 
-.funding-title>h2 {
+.funding-title > h2 {
   color: #f42;
 }
 
@@ -544,7 +544,7 @@
   margin-left: 1.25em;
 }
 
-.article-list>li {
+.article-list > li {
   text-decoration: none;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -759,103 +759,110 @@ footer {
 /*  ==================================================
                       Desktop
     ================================================= */
-  @media (min-width: 1024px) {
-    .container{
-      width: 100%;
-      background-color: red;
-      /* border: 20px soliid green; */
-    }
-    .desktop-link {
-      display: block;
-    }
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    background-color: red;
 
-    .nav1 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      /* border: 1px solid blue; */
-      background-color: black;
-      height: 32px;
-    }
-    
-    .nav1 ul{
-      padding-left: 20px;
-      padding-top: 7px;
-      padding-bottom: 7px;
-      /* border: 1px solid red; */
-    }
+    /* border: 20px soliid green; */
+  }
 
-    .nav1 li{
-      padding-right: 10px;
-    }
-    .nav1 a{
-      text-decoration: none;
-      color: rgb(133, 133,133);
-      font-size: 0.85em;
+  .desktop-link {
+    display: block;
+  }
 
-    }
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    ul {
-      list-style: none;
-    }
+    /* border: 1px solid blue; */
+    background-color: black;
+    height: 32px;
+  }
 
-    ul li {
-      display: inline-block;
-    }
+  .nav1 ul {
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 
-    .dropdown-menu{
-      display: none;
-    }
+    /* border: 1px solid red; */
+  }
 
-    .nav2 ul {
-      /* border: 1px solid red; */
-      padding-left: 21px;
-    }
-    .nav2 a{
-      text-decoration: none;
-      color: rgb(133, 133,133);
-      font-size: 0.85em;
-      /* border: 1px solid red; */
-      padding-right: 29px;
-    }
+  .nav1 li {
+    padding-right: 10px;
+  }
 
-    .funding-title{
-      /* border: 1px solid blue; */
-      display: flex;
-      justify-content: space-between;
-    }
+  .nav1 a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 0.85em;
+  }
 
-    .funding-title  div{
-      display: inline;
-    }
+  ul {
+    list-style: none;
+  }
 
-    .funding-title a {
-      padding:0 12px;
-      border-right: 1px solid #f42;
-    }
+  ul li {
+    display: inline-block;
+  }
 
-    .funding-columns {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 1em;
-      /* border: 1px solid red; */
-      margin-top: 20px;
-    }
+  .dropdown-menu {
+    display: none;
+  }
 
-    .fundings:last-child {
-      display: flex;
-    }
-    .fundings-bit span{
-      font-size: 0.9rem;
-    }
+  .nav2 ul {
+    /* border: 1px solid red; */
+    padding-left: 21px;
+  }
 
-    .articles {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .nav2 a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 0.85em;
 
-    .article-image {
-      min-height: 22.5vw;
-    }
- 
+    /* border: 1px solid red; */
+    padding-right: 29px;
+  }
+
+  .funding-title {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .funding-title div {
+    display: inline;
+  }
+
+  .funding-title a {
+    padding: 0 12px;
+    border-right: 1px solid #f42;
+  }
+
+  .funding-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+
+    /* border: 1px solid red; */
+    margin-top: 20px;
+  }
+
+  .fundings:last-child {
+    display: flex;
+  }
+
+  .fundings-bit span {
+    font-size: 0.9rem;
+  }
+
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .article-image {
+    min-height: 22.5vw;
+  }
 }

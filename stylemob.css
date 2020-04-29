@@ -112,7 +112,7 @@
 
 .container {
   width: 100%;
-  border: 3px solid black;
+  /* border: 3px solid black; */
 }
 
 .cover {
@@ -236,9 +236,9 @@
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main {
+/* .main {
   border: 3px solid red;
-}
+} */
 
 .news {
   padding: 1em;
@@ -365,7 +365,7 @@
   font-size: 1rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1em;
-  border: px solid black;
+  /* border: px solid black; */
   padding-left: 5.5em;
 }
 
@@ -760,20 +760,45 @@ footer {
                       Desktop
     ================================================= */
   @media (min-width: 1024px) {
-    .container{
-      width: 100%;
-      background-color: red;
-      /* border: 20px soliid green; */
-    }
+
     .desktop-link {
       display: block;
+    }
+
+    .cover{
+      height: 37vw;
+    }
+
+    .main-cover {
+      grid-column: span 2;
+      height: 33vw;
+      margin-top: 0.5em;
+      margin-right: 0.4em;
+    }
+  
+    .aside-cover {
+      height: 37vw;      
+    }
+    
+    .aside-cover-1{
+      height: 16vw;
+      margin: 0.5em 0.4em 0em 0.4em;   
+    }
+
+    .aside-cover-2{
+      height: 16vw;
+      margin-left: 0.4em;
+    }
+    .u-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1em;
     }
 
     .nav1 {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      /* border: 1px solid blue; */
       background-color: black;
       height: 32px;
     }
@@ -782,17 +807,16 @@ footer {
       padding-left: 20px;
       padding-top: 7px;
       padding-bottom: 7px;
-      /* border: 1px solid red; */
     }
 
     .nav1 li{
       padding-right: 10px;
     }
+
     .nav1 a{
       text-decoration: none;
       color: rgb(133, 133,133);
       font-size: 0.85em;
-
     }
 
     ul {
@@ -808,19 +832,17 @@ footer {
     }
 
     .nav2 ul {
-      /* border: 1px solid red; */
       padding-left: 21px;
     }
+
     .nav2 a{
       text-decoration: none;
       color: rgb(133, 133,133);
       font-size: 0.85em;
-      /* border: 1px solid red; */
       padding-right: 29px;
     }
 
     .funding-title{
-      /* border: 1px solid blue; */
       display: flex;
       justify-content: space-between;
     }
@@ -838,13 +860,13 @@ footer {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 1em;
-      /* border: 1px solid red; */
       margin-top: 20px;
     }
 
     .fundings:last-child {
       display: flex;
     }
+
     .fundings-bit span{
       font-size: 0.9rem;
     }

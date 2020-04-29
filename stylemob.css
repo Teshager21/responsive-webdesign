@@ -487,9 +487,6 @@ footer {
   background-color: #000;
   align-items:center;
   justify-content: center;
- /*  justify-content: space-between; */
-/*   padding:10%; */
-  /* height:20vw; */
 margin: 0 20%; 
 }
 
@@ -499,6 +496,7 @@ margin: 0 20%;
   justify-content: center;
   height: 50%;
   padding: 5% 0;
+  background-color: #222;
 }
 .social {
   display:flex;
@@ -531,7 +529,6 @@ margin: 0 20%;
  }
  .copy-right {
    height: 50%;
-   background-color: blue;
  }
 
  .footer-links {
@@ -551,13 +548,12 @@ margin: 0 20%;
  .footer__bottom {
    height: 50%;
    display:flex;
-   background-color: red;
    justify-content: center;
    padding: 5% 0;
+   color:#ddd;
  }
   
  .copy-right {
-   background-color: red;
    width: 100%;
    display: flex;
    flex-direction: column;

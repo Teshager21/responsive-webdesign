@@ -470,8 +470,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   height: 50%;
-  padding: 5% 0;
-  background-color: #222;
+  padding: 3.5% 0;
+  background-color: rgb(19, 19, 19);
 }
 
 .social {
@@ -510,11 +510,12 @@ footer {
 }
 
 .footer-links {
-  width: 90%;
+  width: 40%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 5%;
+  margin: 0 auto;
+  margin-top: 2.5%;
 }
 
 .footer-links li {
@@ -523,6 +524,7 @@ footer {
 
 .footer-links a {
   color: #ddd;
+  font-size: 0.75em;
 }
 
 .footer__bottom {
@@ -637,7 +639,6 @@ footer {
   }
 }
 
-
 /*  ==================================================
                       Desktop
     ================================================= */
@@ -711,10 +712,18 @@ footer {
     height: 32px;
   }
 
+  ul {
+    list-style: none;
+  }
+
   .nav1 ul {
     padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
+  }
+
+  ul li {
+    display: inline-block;
   }
 
   .nav1 li {
@@ -729,14 +738,6 @@ footer {
 
   .search .fa-search {
     width: 80%;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  ul li {
-    display: inline-block;
   }
 
   .dropdown-menu {
@@ -802,5 +803,5 @@ footer {
   .footer__bottom * {
     display: inline-block;
     text-align: center;
-  }z
+  }
 }

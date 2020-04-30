@@ -102,9 +102,11 @@
 }
 
 .cover {
+  display: grid;
+  grid-template-columns:1fr;
   box-sizing: border-box;
   width: 100%;
-  /* grid-template-rows: 50vw; */
+  grid-auto-rows: 40vw 80vw;
   justify-content: center;
 }
 
@@ -121,6 +123,7 @@
   color: rgb(139, 139, 139);
   font-size: 0.7rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 .date {
@@ -135,7 +138,10 @@
 }
 
 .aside-cover {
-  height: 50vw;
+  /* height: 50vw; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: auto ,auto;
 }
 
 .aside-cover-1 .title {

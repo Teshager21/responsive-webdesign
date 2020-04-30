@@ -15,7 +15,7 @@
 
 ## Milestone
 
-  To match with the original click [here](https://www.smashingmagazine.com/)
+  To match with the original click [here](https://thenextweb.com/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -70,7 +70,7 @@ To get a local copy up and running follow these simple example steps.
 
     Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JasemDuncan/Smashing-Magazine/issues).
+Feel free to check the [issues page](https://github.com/Teshager21/The-Next-Web-Clone/issues).
 
 ## Show your support
 

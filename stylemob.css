@@ -148,7 +148,6 @@
 }
 
 .aside-cover {
-  /* height: 50vw; */
   display: grid;
   grid-template-columns: 1fr;
   grid-row: auto, auto;
@@ -577,7 +576,6 @@ footer {
 }
 
 .footer__bottom {
-  /* box-sizing: border-box; */
   height: 50%;
   display: flex;
   justify-content: center;

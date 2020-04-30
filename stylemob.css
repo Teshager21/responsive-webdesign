@@ -75,6 +75,7 @@
   display: flex;
   align-items: center;
   width: 10%;
+
   /* height: 100%; */
 }
 
@@ -111,7 +112,7 @@
 }
 
 .main-cover {
-  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.1), transparent),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_245e5223-796x474.png");
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.1), transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_245e5223-796x474.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 2%;
@@ -180,7 +181,6 @@
   color: rgb(139, 139, 139);
   font-size: 0.7rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
-  
 }
 
 .aside-cover-2 {
@@ -462,7 +462,8 @@
 footer {
   display: flex;
   flex-direction: column;
- /*  display:grid;
+
+  /*  display:grid;
   grid-template-columns:1fr;
   grid-template-rows: repeat(2,50px); */
   background-color: #000;
@@ -495,6 +496,7 @@ footer {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
+
   /* background-color: yellow; */
   padding: 0 25%;
 }
@@ -662,7 +664,7 @@ footer {
   }
 
   .cover h2 {
-    font-size: 28px!important;
+    font-size: 28px !important;
   }
 
   .main-cover {
@@ -670,8 +672,8 @@ footer {
     height: 33vw;
     margin-top: 0.5em;
     margin-right: 0.4em;
-    background-image:linear-gradient(to bottom right,#f42, transparent) , url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_245e5223-796x474.png"),url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
-    display:flex;
+    background-image: linear-gradient(to bottom right, #f42, transparent), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_245e5223-796x474.png"), url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -679,18 +681,19 @@ footer {
   .logo-bg {
     height: 60%;
     width: 100%;
-    background-image:url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") ;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: left 0%;
+
     /* border: blue 3px solid; */
     justify-self: flex-start;
-
   }
-   
+
   .main-cover h2 {
     font-size: 56px !important;
   }
+
   .aside-cover {
     height: 37vw;
   }
@@ -699,6 +702,7 @@ footer {
     height: 16vw;
     margin: 0.5em 0.4em 0 0.4em;
   }
+
   .aside-cover-2 {
     height: 16vw;
     margin-left: 0.4em;

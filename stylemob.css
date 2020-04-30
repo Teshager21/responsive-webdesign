@@ -99,8 +99,14 @@
 }
 
 .cover {
+  display: grid;
+  grid-template-columns: 1fr;
   box-sizing: border-box;
   width: 100%;
+<<<<<<< HEAD
+=======
+  grid-auto-rows: 40vw 80vw;
+>>>>>>> fad52b322a2382b08ffba166717aa464b3a5d9f1
   justify-content: center;
 }
 
@@ -140,7 +146,10 @@
 }
 
 .aside-cover {
-  height: 50vw;
+  /* height: 50vw; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row: auto, auto;
 }
 
 .aside-cover-1 .title {

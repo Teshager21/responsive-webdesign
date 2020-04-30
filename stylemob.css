@@ -95,9 +95,9 @@
   display: flex;
   align-items: center;
   width: 10%;
-  
+
   /* height: 100%; */
-  }
+}
 
 .nav-icons * {
   margin: 10%;
@@ -372,6 +372,7 @@
   font-size: 1rem;
   font-family: "Avalon", Tahoma, Geneva, Verdana, sans-serif;
   padding: 1em;
+
   /* border: px solid black; */
   padding-left: 5.5em;
 }
@@ -766,131 +767,132 @@ footer {
 /*  ==================================================
                       Desktop
     ================================================= */
-  @media (min-width: 1024px) {
-    .body{
-      overflow-x: hidden;
-    }
+@media (min-width: 1024px) {
+  .body {
+    overflow-x: hidden;
+  }
 
-    .desktop-link {
-      display: block;
-    }
+  .desktop-link {
+    display: block;
+  }
 
-    .cover{
-      height: 37vw;
-    }
+  .cover {
+    height: 37vw;
+  }
 
-    .main-cover {
-      grid-column: span 2;
-      height: 33vw;
-      margin-top: 0.5em;
-      margin-right: 0.4em;
-    }
-  
-    .aside-cover {
-      height: 37vw;      
-    }
-    
-    .aside-cover-1{
-      height: 16vw;
-      margin: 0.5em 0.4em 0em 0.4em;   
-    }
+  .main-cover {
+    grid-column: span 2;
+    height: 33vw;
+    margin-top: 0.5em;
+    margin-right: 0.4em;
+  }
 
-    .aside-cover-2{
-      height: 16vw;
-      margin-left: 0.4em;
-    }
-    .u-row {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 1em;
-    }
+  .aside-cover {
+    height: 37vw;
+  }
 
-    .nav1 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      background-color: black;
-      height: 32px;
-    }
-    
-    .nav1 ul{
-      padding-left: 20px;
-      padding-top: 7px;
-      padding-bottom: 7px;
-    }
+  .aside-cover-1 {
+    height: 16vw;
+    margin: 0.5em 0.4em 0 0.4em;
+  }
 
-    .nav1 li{
-      padding-right: 10px;
-    }
+  .aside-cover-2 {
+    height: 16vw;
+    margin-left: 0.4em;
+  }
 
-    .nav1 a{
-      text-decoration: none;
-      color: rgb(133, 133,133);
-      font-size: 0.85em;
-    }
-    
-    .search .fa-search {
-      width: 80%;
-      }
+  .u-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
 
-    ul {
-      list-style: none;
-    }
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 32px;
+  }
 
-    ul li {
-      display: inline-block;
-    }
+  .nav1 ul {
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
 
-    .dropdown-menu{
-      display: none;
-    }
+  .nav1 li {
+    padding-right: 10px;
+  }
 
-    .nav2 ul {
-      padding-left: 21px;
-    }
+  .nav1 a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 0.85em;
+  }
 
-    .nav2 a{
-      text-decoration: none;
-      color: rgb(133, 133,133);
-      font-size: 0.85em;
-      padding-right: 29px;
-    }
+  .search .fa-search {
+    width: 80%;
+  }
 
-    .funding-title{
-      display: flex;
-      justify-content: space-between;
-    }
+  ul {
+    list-style: none;
+  }
 
-    .funding-title  div{
-      display: inline;
-    }
+  ul li {
+    display: inline-block;
+  }
 
-    .funding-title a {
-      padding:0 12px;
-      border-right: 1px solid #f42;
-    }
+  .dropdown-menu {
+    display: none;
+  }
 
-    .funding-columns {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 1em;
-      margin-top: 20px;
-    }
+  .nav2 ul {
+    padding-left: 21px;
+  }
 
-    .fundings:last-child {
-      display: flex;
-    }
+  .nav2 a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 0.85em;
+    padding-right: 29px;
+  }
 
-    .fundings-bit span{
-      font-size: 0.9rem;
-    }
+  .funding-title {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .articles {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .funding-title div {
+    display: inline;
+  }
 
-    .article-image {
-      min-height: 22.5vw;
-    } 
+  .funding-title a {
+    padding: 0 12px;
+    border-right: 1px solid #f42;
+  }
+
+  .funding-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    margin-top: 20px;
+  }
+
+  .fundings:last-child {
+    display: flex;
+  }
+
+  .fundings-bit span {
+    font-size: 0.9rem;
+  }
+
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .article-image {
+    min-height: 22.5vw;
+  }
 }

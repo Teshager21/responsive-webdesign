@@ -96,6 +96,7 @@
 
 .container {
   width: 100%;
+
   /* border: 3px solid black; */
 }
 
@@ -223,6 +224,7 @@
   color: rgb(140, 140, 140);
   font-size: 0.75em;
 }
+
 .funding {
   display: flex;
   flex-direction: column;
@@ -535,7 +537,7 @@ footer {
   justify-items: center;
   justify-content: center;
   align-items: center;
-  color: rgb(136, 136, 136) ;
+  color: rgb(136, 136, 136);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
 }
@@ -609,10 +611,12 @@ footer {
   .article-image {
     min-height: 30vw;
   }
-  .footer__bottom *{
+
+  .footer__bottom * {
     display: inline-block;
     text-align: center;
   }
+
   .nav2 a {
     text-decoration: none;
     color: rgb(133, 133, 133);
@@ -760,7 +764,8 @@ footer {
     top: 0;
     z-index: 9999;
   }
-  .footer__bottom *{
+
+  .footer__bottom * {
     display: inline-block;
     text-align: center;
   }

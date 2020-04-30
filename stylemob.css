@@ -96,7 +96,6 @@
 
 .container {
   width: 100%;
-  /* border: 3px solid black; */
 }
 
 .cover {
@@ -223,6 +222,7 @@
   color: rgb(140, 140, 140);
   font-size: 0.75em;
 }
+
 .funding {
   display: flex;
   flex-direction: column;
@@ -460,8 +460,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   height: 50%;
-  padding: 5% 0;
-  background-color: #222;
+  padding: 3.5% 0;
+  background-color: rgb(19, 19, 19);
 }
 
 .social {
@@ -474,10 +474,11 @@ footer {
 }
 
 .social-media {
-  width: 90%;
+  width: 35%;
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .social-media li {
@@ -497,11 +498,12 @@ footer {
 }
 
 .footer-links {
-  width: 90%;
+  width: 40%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 5%;
+  margin: 0 auto;
+  margin-top: 2.5%;
 }
 
 .footer-links li {
@@ -510,6 +512,7 @@ footer {
 
 .footer-links a {
   color: #ddd;
+  font-size: 0.75em;
 }
 
 .footer__bottom {
@@ -535,7 +538,7 @@ footer {
   justify-items: center;
   justify-content: center;
   align-items: center;
-  color: rgb(136, 136, 136) ;
+  color: rgb(136, 136, 136);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
 }
@@ -609,10 +612,12 @@ footer {
   .article-image {
     min-height: 30vw;
   }
-  .footer__bottom *{
+
+  .footer__bottom * {
     display: inline-block;
     text-align: center;
   }
+
   .nav2 a {
     text-decoration: none;
     color: rgb(133, 133, 133);
@@ -620,7 +625,6 @@ footer {
     padding-right: 29px;
   }
 }
-
 
 /*  ==================================================
                       Desktop
@@ -673,10 +677,18 @@ footer {
     height: 32px;
   }
 
+  ul {
+    list-style: none;
+  }
+
   .nav1 ul {
     padding-left: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
+  }
+
+  ul li {
+    display: inline-block;
   }
 
   .nav1 li {
@@ -691,14 +703,6 @@ footer {
 
   .search .fa-search {
     width: 80%;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  ul li {
-    display: inline-block;
   }
 
   .dropdown-menu {
@@ -760,7 +764,8 @@ footer {
     top: 0;
     z-index: 9999;
   }
-  .footer__bottom *{
+
+  .footer__bottom * {
     display: inline-block;
     text-align: center;
   }

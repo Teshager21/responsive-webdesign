@@ -93,8 +93,11 @@
 
 .nav-icons {
   display: flex;
+  align-items: center;
   width: 10%;
-}
+  
+  /* height: 100%; */
+  }
 
 .nav-icons * {
   margin: 10%;
@@ -103,6 +106,9 @@
 
 .search .fa-search {
   width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .dropdown-menu .fa-bars {
@@ -112,7 +118,7 @@
 
 .container {
   width: 100%;
-  /* border: 3px solid black; */
+  border: 3px solid black;
 }
 
 .cover {
@@ -128,6 +134,7 @@
 
 .main-cover {
   /* box-sizing: inherit; */
+  background-color: #f42;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -760,6 +767,9 @@ footer {
                       Desktop
     ================================================= */
   @media (min-width: 1024px) {
+    .body{
+      overflow-x: hidden;
+    }
 
     .desktop-link {
       display: block;
@@ -818,6 +828,10 @@ footer {
       color: rgb(133, 133,133);
       font-size: 0.85em;
     }
+    
+    .search .fa-search {
+      width: 80%;
+      }
 
     ul {
       list-style: none;
@@ -879,109 +893,4 @@ footer {
     .article-image {
       min-height: 22.5vw;
     } 
-}
-@media (min-width: 1024px) {
-  .container {
-    width: 100%;
-    background-color: red;
-  }
-
-  .desktop-link {
-    display: block;
-  }
-
-  .nav1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    /* border: 1px solid blue; */
-    background-color: black;
-    height: 32px;
-  }
-
-  .nav1 ul {
-    padding-left: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-
-    /* border: 1px solid red; */
-  }
-
-  .nav1 li {
-    padding-right: 10px;
-  }
-
-  .nav1 a {
-    text-decoration: none;
-    color: rgb(133, 133, 133);
-    font-size: 0.85em;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  ul li {
-    display: inline-block;
-  }
-
-  .dropdown-menu {
-    display: none;
-  }
-
-  .nav2 ul {
-    /* border: 1px solid red; */
-    padding-left: 21px;
-  }
-
-  .nav2 a {
-    text-decoration: none;
-    color: rgb(133, 133, 133);
-    font-size: 0.85em;
-
-    /* border: 1px solid red; */
-    padding-right: 29px;
-  }
-
-  .funding-title {
-    /* border: 1px solid blue; */
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .funding-title div {
-    display: inline;
-  }
-
-  .funding-title a {
-    padding: 0 12px;
-    border-right: 1px solid #f42;
-  }
-
-  .funding-columns {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
-
-    /* border: 1px solid red; */
-    margin-top: 20px;
-  }
-
-  .fundings:last-child {
-    display: flex;
-  }
-
-  .fundings-bit span {
-    font-size: 0.9rem;
-  }
-
-  .articles {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .article-image {
-    min-height: 22.5vw;
-  }
 }

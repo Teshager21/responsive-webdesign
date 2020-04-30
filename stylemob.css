@@ -103,11 +103,7 @@
   grid-template-columns: 1fr;
   box-sizing: border-box;
   width: 100%;
-  <<<<<<< HEAD
-=======
   grid-auto-rows: 40vw 80vw;
-  >>>>>>> fad52b322a2382b08ffba166717aa464b3a5d9f1
-  justify-content: center;fad52b322a2382b08ffba166717aa464b3a5d9f1justify-content
 }
 
 .main-cover a p {
@@ -750,6 +746,7 @@ footer {
 
   .aside-cover {
     height: 37vw;
+    cursor: pointer;
   }
 
   .aside-cover-1 {

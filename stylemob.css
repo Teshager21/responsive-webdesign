@@ -103,18 +103,19 @@
   grid-template-columns: 1fr;
   box-sizing: border-box;
   width: 100%;
-<<<<<<< HEAD
+  <<<<<<< HEAD
 =======
   grid-auto-rows: 40vw 80vw;
->>>>>>> fad52b322a2382b08ffba166717aa464b3a5d9f1
-  justify-content: center;
+  >>>>>>> fad52b322a2382b08ffba166717aa464b3a5d9f1
+  justify-content: center;fad52b322a2382b08ffba166717aa464b3a5d9f1justify-content
 }
 
-.main-cover a p{
+.main-cover a p {
   color: white;
 }
 
-.fa-clock , .fa-share-alt{
+.fa-clock,
+ .fa-share-alt {
   font-size: 16px;
 }
 
@@ -394,33 +395,35 @@
   align-items: flex-start;
   margin: 1.25em;
 }
+
 .article-image1 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/img1.png');
 }
+
 .article-image2 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/img2.png');
-
 }
+
 .article-image3 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/im3.png');
-
 }
+
 .article-image4 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/im4.png');
- 
 }
+
 .article-image5 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/img5.png');
-
 }
+
 .article-image6 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/img6.png');
-
 }
+
 .article-image7 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/img7.png');
-
 }
+
 .article-image8 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('./Assets/images/img8.png');
 }
@@ -435,7 +438,8 @@
 .article-title h4 {
   margin: 0.7em 0;
 }
-.article-title a { 
+
+.article-title a {
   color: white;
   text-decoration: none;
   font-size: 1.5em;
@@ -444,7 +448,7 @@
 }
 
 .article-title p a {
-  color:rgb(154, 154, 154);
+  color: rgb(154, 154, 154);
   text-decoration: none;
   font-size: 0.85em;
   font-weight: bold;
@@ -730,13 +734,12 @@ footer {
     justify-self: flex-start;
   }
 
-  .logo-bg .date{
+  .logo-bg .date {
     color: white;
     font-size: 1.5em;
     z-index: 9999;
     display: flex;
     justify-content: flex-end;
-
   }
 
   .main-cover h2 {

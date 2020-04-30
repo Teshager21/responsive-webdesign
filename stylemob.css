@@ -104,12 +104,12 @@
 .cover {
   box-sizing: border-box;
   width: 100%;
-  height: 40vh;
+  /* height: 40vh; */
   justify-content: center;
 }
 
 .main-cover {
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 1), transparent), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.1), transparent),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_245e5223-796x474.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 2%;
@@ -173,7 +173,7 @@
 }
 
 .aside-cover-2 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 1), transparent), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/robotpresident.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 2%;
@@ -451,6 +451,9 @@
 footer {
   display: flex;
   flex-direction: column;
+ /*  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows: repeat(2,50px); */
   background-color: #000;
   align-items: center;
   justify-content: center;
@@ -476,10 +479,13 @@ footer {
 }
 
 .social-media {
+  box-sizing: border-box;
   width: 90%;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
+  /* background-color: yellow; */
+  padding: 0 25%;
 }
 
 .social-media li {
@@ -515,12 +521,13 @@ footer {
 }
 
 .footer__bottom {
-  height: 45%;
+  /* box-sizing: border-box; */
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 4.8% 0;
+  padding: 10% 0;
   color: #ddd;
 }
 
@@ -642,14 +649,21 @@ footer {
     height: 37vw;
   }
 
+  .cover h2 {
+    font-size: 28px!important;
+  }
+
   .main-cover {
     grid-column: span 2;
     height: 33vw;
     margin-top: 0.5em;
     margin-right: 0.4em;
-    background-image:linear-gradient(to bottom right,#f42, rgba(0, 0, 0, 1)),url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/1-30-796x417.jpg');
+    background-image:linear-gradient(to bottom right,#f42, transparent) , url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Snag_245e5223-796x474.png"),url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
   }
-
+   
+  .main-cover h2 {
+    font-size: 56px !important;
+  }
   .aside-cover {
     height: 37vw;
   }
@@ -768,5 +782,5 @@ footer {
   .footer__bottom * {
     display: inline-block;
     text-align: center;
-  }
+  }z
 }

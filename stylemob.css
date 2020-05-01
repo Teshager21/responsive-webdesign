@@ -684,6 +684,42 @@ footer {
     font-size: 0.85em;
     padding-right: 29px;
   }
+
+  .dropdown-menu {
+    display: none;
+  }
+
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 32px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .nav1 ul {
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  .nav1 li {
+    padding-right: 10px;
+  }
+
+  .nav1 a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 0.85em;
+  }
 }
 
 /*  ==================================================
@@ -715,6 +751,10 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .logo {
+    display: none;
   }
 
   .logo-bg {

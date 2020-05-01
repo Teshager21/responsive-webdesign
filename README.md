@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Teshager21/The-Next-Web-Clone/e81dad724e4bdd1e16afc80949f6066525a89ccf/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Teshager21/The-Next-Web-Clone/bcfaea4a14c0a394ed48b074b97004859240470b/index.html)
 
 ## Milestone
 

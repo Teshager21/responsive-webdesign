@@ -1,4 +1,4 @@
-# Smashing Magazine
+# The Next Web Project
  This is a project meant to demonstrate visual heirarchy  through the use of heat map on the smashing magazine homepage.
 
 ![screenshot](./Assets/images/screenshot.png)
@@ -11,11 +11,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/Smashing-Magazine/ea7a5fecd9a54e539143ab833443e5596ee27fd5/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Teshager21/The-Next-Web-Clone/bcfaea4a14c0a394ed48b074b97004859240470b/index.html)
 
 ## Milestone
 
-  To match with the original click [here](https://www.smashingmagazine.com/)
+  To match with the original click [here](https://thenextweb.com/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -70,7 +70,7 @@ To get a local copy up and running follow these simple example steps.
 
     Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JasemDuncan/Smashing-Magazine/issues).
+Feel free to check the [issues page](https://github.com/Teshager21/The-Next-Web-Clone/issues).
 
 ## Show your support
 
